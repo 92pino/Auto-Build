@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='Fastlane-AutoBuildTests.xctest' tests='7' failures='0'>
+  <testsuite name='Fastlane_AutoBuildUITests.Fastlane_AutoBuildUITests' tests='2' failures='0'>
+    <testcase classname='Fastlane_AutoBuildUITests.Fastlane_AutoBuildUITests' name='testExample' time='3.480'/>
+    <testcase classname='Fastlane_AutoBuildUITests.Fastlane_AutoBuildUITests' name='testLaunchPerformance' time='87.608'/>
+  </testsuite>
+  <testsuite name='Fastlane_AutoBuildUITests.Fastlane_AutoBuildUITestsLaunchTests' tests='4' failures='0'>
+    <testcase classname='Fastlane_AutoBuildUITests.Fastlane_AutoBuildUITestsLaunchTests' name='testLaunch' time='6.274'/>
+    <testcase classname='Fastlane_AutoBuildUITests.Fastlane_AutoBuildUITestsLaunchTests' name='testLaunch' time='8.701'/>
+    <testcase classname='Fastlane_AutoBuildUITests.Fastlane_AutoBuildUITestsLaunchTests' name='testLaunch' time='4.507'/>
+    <testcase classname='Fastlane_AutoBuildUITests.Fastlane_AutoBuildUITestsLaunchTests' name='testLaunch' time='7.771'/>
+  </testsuite>
+  <testsuite name='Fastlane_AutoBuildTests.Fastlane_AutoBuildTests' tests='1' failures='0'>
+    <testcase classname='Fastlane_AutoBuildTests.Fastlane_AutoBuildTests' name='testExample' time='0.008'/>
+  </testsuite>
+</testsuites>

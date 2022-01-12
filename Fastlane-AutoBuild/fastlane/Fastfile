@@ -1,0 +1,27 @@
+desc "build app and upload to testflight"
+  # fastlane 시 unittest 결과 슬랙으로 전달
+  lane :tests do
+    run_tests(scheme: "Fastlane-AutoBuildTests",
+              slack_url: "https://hooks.slack.com/services/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",
+              slack_channel: "#ios-webhook")
+
+  # 성공 후 슬랙 메시지에 보내는 옵션
+  after_all do |lane|
+  slack(
+    message: "테스트 성공",
+    success: true,
+    slack_url: "https://hooks.slack.com/services/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",
+    slack_channel: "#ios-webhook"
+  )
+  end
+
+  # 에러 발생시 슬랙에 보내는 옵션
+  error do |lane, exception|
+    slack(
+      message: "테스트 실패",
+      success: false,
+      slack_url: "https://hooks.slack.com/services/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",
+      slack_channel: "#ios-webhook"
+    )
+  end
+end
