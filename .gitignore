@@ -10,3 +10,14 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# XcodeGen
+.DS_Store
+.swiftpm
+/.build
+/Packages
+xcuserdata
+*.xccheckout
+*.xcuserstate
+XcodeGen.xcodeproj
+xcodegen.zip
